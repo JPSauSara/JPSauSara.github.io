@@ -2,4 +2,38 @@ body {
   font-family: dejarip, sans-serif;
   font-style: normal;
   font-weight: 400;
+  font-size: 16px;
+  /* line-height: 10px; */
+  /* use whitesmoke as background */
+  background-color: #ECECEC;
 }
+
+*{
+  box-sizing: border-box;
+  }
+
+.container {
+  clear: both;
+	width: 100%;
+	margin:0 auto;
+}
+
+header {
+  top: 0;
+	z-index: 99;
+  width:100%;
+  margin: 0 0 30 0;
+  padding: 30px;
+}
+
+footer {
+  color: #bef1ed;
+  background-color: #2B2B2A;
+  text-align: center;
+}
+
+.main-content {
+  height: 100%;
+}
+
+
