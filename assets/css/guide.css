@@ -1,0 +1,162 @@
+body {
+    background: url("../images/ep_naturalblack.png");
+    font-family: dejarip, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+*{
+    box-sizing: border-box;
+    }
+
+header {
+    /* position: absolute; */
+    top: 0;
+	z-index: 99;
+    width:100%;
+    /* margin: 0 0 30 0; */
+    margin: auto 35px;
+    padding: 25px;
+    color: #ccc;
+    line-height: 125%;
+	/* border-bottom: 2px solid #ccc; */
+}
+
+footer {
+	padding: 25px 0px;
+	clear: both;
+	color: #ccc;
+	font-size: 12px;
+	text-align: center;
+    border-top: 8px solid #bef1ed;
+    background-color: #2B2B2A;
+}
+
+header h1 {
+    color: #f5bd2e;
+    line-height: 150%;
+}
+
+h1 {
+    font-size: 27px;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+.main-container {
+	/* background: url("../images/ep_naturalblack.png"); */
+	padding: 0px;
+    width: 90%;
+	border: 1px solid #dddddd;
+    /* background-color: #ffffff; */
+    margin: 20px auto; 
+    background: linear-gradient(90deg, #ECECEC 25%, #FFFFFF 25%);
+}
+
+.section-title {
+    font-size: 24px;
+    padding: 10px 15px 0px 15px;
+    font-weight: 600;
+    color: #6a6a6a;
+    margin: 0%;
+}
+
+.side-description{
+    float: left;
+    width: 25%;
+    padding-left: 15px;
+    height: 100%;
+}
+
+.side-content {
+    width: 75%;
+    margin-left: 25%;
+    padding-left: 25px;
+}
+.square {
+    /* display: inline-block; */
+    display: inline-grid;
+    width: 100px;
+    height: 100px;
+    /* background: black; */
+    padding: 10px;
+    margin: 5px 0px;
+    /* float: right; */
+
+    /* a small margin to separate the blocks */
+    /* margin-right: 5px; */
+}
+.square p {
+    font-size: 12px;
+
+}
+.dot {
+    /* border: solid thin #6a6a6a; */
+    border-radius: 50%;
+}
+.invisible {
+    visibility: hidden;
+}
+
+#primary-one{
+    /* color: #59CFD7; */
+    /* background-color: #59CFD7; */
+    /* background-color: #0D6A7A; */
+    background-color: #1cadb2;
+}
+#primary-two{
+    /* color: #59CFD7; */
+    /* background-color: #ec7046; */
+    /* background-color: #FBC558; */
+    background-color: #f5bd2e;
+}
+#primary-three {
+    background-color: #6A6A6A;
+}
+#background-one {
+    background-color: #F7F7F8;
+}
+#background-two {
+    background-color: #F1F1F1;
+}
+#background-three {
+    background-color: #ECECEC;
+}
+#background-four {
+    background-color: #D9D9D8;
+}
+#background-five {
+    background-color: #B2B1AF;
+}
+#background-six {
+    background-color: #7D7C7A;
+}
+
+#background-seven {
+    background-color: #2B2B2A;
+}
+
+#other-one {
+    /* background-color: #59CFD7; */
+    background-color: #bef1ed;
+}
+#other-two {
+    background-color: #94DCA5;
+    /* background-color: #574236; */
+}
+#other-three {
+    
+    background-color:#003951;
+}
+#other-four {
+    /* background-color: #EE6F75; */
+    background-color: #df5343;
+}
+#other-five {
+    background-color: #e36485;
+}
+#other-six {
+    background-color: #5e4d89;
+}
