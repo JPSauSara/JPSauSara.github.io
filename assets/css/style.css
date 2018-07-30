@@ -1,3 +1,8 @@
+html, body {
+  height: 100%;
+  position: relative;
+}
+
 body {
   font-family: dejarip, sans-serif;
   font-style: normal;
@@ -14,6 +19,11 @@ body {
 *{
   box-sizing: border-box;
   }
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
 
 .container {
   clear: both;
@@ -56,6 +66,7 @@ nav a {
   display: inline-block;
   text-decoration: none;
   padding: 5px 10px;
+  color: #1cadb2;
 }
 
 nav a:hover {
@@ -71,10 +82,13 @@ footer {
   text-align: center;
   padding: 25px;
   font-size: 12px;
+  margin-bottom: 0%;
 }
 
-.main-content {
-  padding: 5%;
+.main-container {
+  padding: 5% 10%;
+  min-height: 100vh; /* will cover the 100% of viewport */
+position: relative;
 
 }
 
@@ -91,8 +105,16 @@ footer {
 }
 
 .social img {
-  padding: 5px 10px;
-  background-size: cover;
+  padding: 10px;
+  background-size: contain;
+  /* height: 50px;
+  width: 50px; */
+}
+
+.social img:hover {
+  background-color: #bef1ed;
+  /* background-size: 100%; */
+  border-radius: 25%;
 }
 
 /* begin styling for main page */
@@ -104,7 +126,7 @@ footer {
   background-image: url(../images/chicago.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  object-fit: cover;
+  /* object-fit: contain; */
   color: #ECECEC;
 }
 
